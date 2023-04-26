@@ -1,6 +1,9 @@
 <?php
 include ('dbconnection.php');  
 
+
+
+
 // Verify the reCAPTCHA response
 $recaptcha_response = $_POST['g-recaptcha-response'];
 $url = 'https://www.google.com/recaptcha/api/siteverify';
