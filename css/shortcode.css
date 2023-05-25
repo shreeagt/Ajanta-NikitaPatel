@@ -2127,6 +2127,9 @@ ul.pbmit-timelist-list .pbmit-timelist-li-value {
     content: '';
 }
 
+.bg-light-grey{
+    background:#f8f7f4;
+}
 .pbmit-title-bar-content {
     position: relative;
     z-index: 1;
