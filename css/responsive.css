@@ -256,6 +256,7 @@ body {
 	.site-header .site-navigation ul.navigation .righticon {
 		font-size: 22px; 
 		position: absolute;
+		padding:10px;
 		z-index: 99;
 		right: 0;
 		top: 0; 

@@ -172,15 +172,22 @@
 
                                                </li>
                                                <li class="dropdown">
-                                                   <a href="patient.html">Patient Information</a>
-
+                                                   <a href="patient.html">Treatment/Facilities</a>
+  <ul>
+                                                         <li><a href="cataract.html">Cataract</a></li>
+                                                         <li><a href="lasik.html">Lasik</a></li>
+                                                      </ul>
+<span class="righticon"><i class="fa fa-angle-down"></i></span>
                                               </li>
-                                              <li>
-                                               <a href="patient-services.html">Patient Services</a>
-
+                                              <li class="dropdown">
+                                               <a href="patient-services.html">Disease</a>
+  <ul>
+                                                         <li><a href="cataract.html">Cataract</a></li>
+                                                         <li><a href="lasik.html">Lasik</a></li>
+                                                      </ul>
+<span class="righticon"><i class="fa fa-angle-down"></i></span>
                                                </li>
-                                               <li><a href="patient-education.html">Patient Education</a>
-                                               </li>
+                                               
                                              </ul>
                                           </div>
                                        </nav>
@@ -210,7 +217,7 @@
          </div>
       </header>
 
-      <div class="pbmit-title-bar-wrapper position-relative">
+      <!-- <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
             <img src="images/bg/infrastructure.png" alt="" class="w-100 d-none d-sm-block" srcset="">
             <img src="images/bg/infrastructure-mob.png" alt="" class="w-100 d-block d-sm-none" srcset="">
@@ -234,7 +241,7 @@
             </div>
          </div>
         </div>
-     </div>
+     </div> -->
 
        <!-- <div class="pbmit-title-bar-wrapper">
         <div class="container">
@@ -1810,4 +1817,22 @@ Opp to PAL RTO<br/>
     <script src="revolution/rs6.min.js"></script>
 
  
+<script>
+   document.addEventListener('DOMContentLoaded', function() {
+     var righticons = document.querySelectorAll('.righticon');
+     righticons.forEach(function(righticon) {
+       righticon.addEventListener('click', function() {
+         var dropdown = righticon.parentNode;
+         var submenu = dropdown.querySelector('ul');
+         var icon = righticon.querySelector('i');
+         
+         dropdown.classList.toggle('open');
+         submenu.classList.toggle('open');
+         icon.classList.toggle('fa-angle-up');
+         icon.classList.toggle('fa-angle-down');
+       });
+     });
+   });
+ </script>
+    
 </body></html>
