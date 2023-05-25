@@ -130,16 +130,7 @@ background-color: #476BA1;
                                                <i class="fa fa-instagram"></i>
                                              </a>
                                           </li>
-                                          <!-- <li class="pbmit-social-li pbmit-social-linkedin">
-                                             <a href="#" target="_blank">
-                                                <i class="pbmit-base-icon-linkedin-squared"></i>
-                                             </a>
-                                          </li>
-                                          <li class="pbmit-social-li pbmit-social-youtube">
-                                             <a href="#" target="_blank">
-                                                <i class="pbmit-base-icon-youtube-play"></i>
-                                             </a>
-                                          </li> -->
+
                                        </ul>
                                     </li>
                                  </ul>						
@@ -230,11 +221,11 @@ background-color: #476BA1;
       </header>
 
 
-      <div class="pbmit-title-bar-wrapper position-relative">
+      <!-- <div class="pbmit-title-bar-wrapper position-relative">
          <div class="img-cover">
          <img src="images/bg/inquiry.png" alt="" class="w-100 d-none d-sm-block" srcset="">
             <img src="images/bg/inquiry-mob.png" alt="" class="w-100 d-block d-sm-none " srcset="">
-            <!-- <img src="images/bg/title.png" alt="" class="w-100" srcset=""> -->
+        
          </div>
          
         <div class="container banner-container">
@@ -245,17 +236,11 @@ background-color: #476BA1;
                      <h1 class="pbmit-tbar-title"> Transforming Vision Health <br/> at Dr.Nikita's Eye Hospital                </h1>
                   </div>
                </div>
-               <!-- <div class="pbmit-breadcrumb">
-                  <div class="pbmit-breadcrumb-inner">
-                     <span><a title="" href="/" class="home"><span>Dr.Nikita's Eye Hospital                 Clinic</span></a></span>
-                     <span class="sep"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
-                     <span><span class="post-root post post-post current-item">Infrastructure</span></span>
-                  </div>
-               </div> -->
+
             </div>
          </div>
         </div>
-     </div>
+     </div> -->
 
 
 
