@@ -182,7 +182,7 @@ background-color: #476BA1;
 
                                                </li>
                                                <li class="dropdown">
-                                                   <a href="#">Treatment/Facilities</a>
+                                                   <a href="#">Treatment/Facilities  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                       <ul>
                                                          <li><a href="cataract.html">Cataract</a></li>
                                                          <li><a href="lasik.html">Lasik</a></li>
@@ -190,7 +190,7 @@ background-color: #476BA1;
                                                    <span class="righticon"><i class="fa fa-angle-down"></i></span>
                                               </li>
                                               <li class="dropdown">
-                                               <a href="#">Disease</a>
+                                               <a href="#">Disease<i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                                    <ul>
                                                          <li><a href="cataract.html">Cataract</a></li>
                                                          <li><a href="lasik.html">Lasik</a></li>
