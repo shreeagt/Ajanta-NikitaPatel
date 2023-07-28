@@ -2390,12 +2390,12 @@ color:#455d7f;
 }
 .accordion-button::after {
     font-size: 12px;
-    content:'\e858';
+    /* content:'\e858'; */
     background-image: none;
     font-family: 'pbminfotech-base-icons';
 }
 .accordion-button:not(.collapsed)::after{
-    content: '\e84e';
+    /* content: '\e84e'; */
     transform: none;
     font-size: 14px;
     background-image: none;
@@ -2430,7 +2430,7 @@ color:#455d7f;
 background-color: #476BA1;
 }
 .accordion-style-2 .accordion-button:not(.collapsed)::after{
-    content: '\e812';
+    /* content: '\e812'; */
 }
 .accordion-style-3 .accordion-button::after{
     text-align: center;
