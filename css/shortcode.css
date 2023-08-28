@@ -2391,6 +2391,7 @@ color:#455d7f;
 .accordion-button::after {
     font-size: 12px;
     /* content:'\e858'; */
+    
     background-image: none;
     font-family: 'pbminfotech-base-icons';
 }
