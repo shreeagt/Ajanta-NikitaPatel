@@ -1105,7 +1105,7 @@ background-color: #476BA1;
                                   </div>
                                </div>
                                <h3 class="pbmit-post-title">
-                                  <a href="patient-education.html">Retinal detachment is a medical emergency in which the retina separates from the inner surface of the eye.</a>
+                                  <a href="#">Retinal detachment is a medical emergency in which the retina separates from the inner surface of the eye.</a>
                                </h3>
                                <div class="pbminfotech-box-desc">
                                   <div class="pbmit-read-more-link">
@@ -1264,7 +1264,7 @@ Opp to PAL RTO<br/>
                             <h3 class="widget-title">Patient Education</h3>
                             <ul class="pbmit-rpw-list">
                                <li>
-                                  <a href="patient-education.html">
+                                  <a href="#">
                                      <span class="pbmit-rpw-img">
                                         <img src="images/debetic_info.png" class="img-fluid" alt="">
                                      </span>
@@ -1284,7 +1284,7 @@ Opp to PAL RTO<br/>
                                   </a>
                                   <span class="pbmit-rpw-content">
                                      <span class="pbmit-rpw-title">
-                                        <a href="patient-education.html">Retinal detachment is a medical emergency in which the retina separates from the inner surface of the eye.</a>
+                                        <a href="#">Retinal detachment is a medical emergency in which the retina separates from the inner surface of the eye.</a>
                                      </span>
                                      
                                   </span>
