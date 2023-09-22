@@ -4,11 +4,11 @@
     <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Risingretina Eye Hospital in Ahmedabad</title>
+    <title>Risingretina Eye Hospital in Surat</title>
     <meta name="robots" content="noindex, follow">
-    <link rel="canonical" href="https://risingretina.matrixpanel.in/inquiry.php" />
-    <meta name="description" content="If you're looking for a top-rated eye hospital in Ahmedabad, Risingretina Eye Hospital in Satellite, specifically at Shivranjani Cross Roads, may be a great option. Their expert eye doctor and surgeon (ophthalmologist) can provide high-quality care if you're in need of an eye center specialist near you.">
-    <meta name="keywords" content="Eye Hospital in Ahmedabad, Eye Doctor in Ahmedabad, Eye Specialist in Ahmedabad, Best Eye Hospital in Ahmedabad, Retina Specialist in Ahmedabad, Eye Care Hospital Ahmedabad, Eye health tips"/>
+    <link rel="canonical" href="https://nikitapatel.matrixpanel.in/inquiry.php" />
+    <meta name="description" content="If you're looking for a top-rated eye hospital in Surat, Risingretina Eye Hospital in Satellite, specifically at Shivranjani Cross Roads, may be a great option. Their expert eye doctor and surgeon (ophthalmologist) can provide high-quality care if you're in need of an eye center specialist near you.">
+    <meta name="keywords" content="Eye Hospital in Surat, Eye Doctor in Surat, Eye Specialist in Surat, Best Eye Hospital in Surat, Retina Specialist in Surat, Eye Care Hospital Surat, Eye health tips"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Favicon -->
