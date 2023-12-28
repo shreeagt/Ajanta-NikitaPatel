@@ -1,11 +1,16 @@
+
+
 <html class="no-js" lang="en">
     <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dr.Nikita's Eye Hospital                 Clinic Surat Gujarat India</title>
+    <title>Best Eye Specialist Doctor in Surat | Nikita Eye Hospital</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="robots" content="noindex, follow">
-    <meta name="description" content="">
+    <link rel="canonical" href="https://nikitapatel.matrixpanel.in/inquiry.html" />
+    <meta name="description" content="Inquiry - Nikita Eye Hospital">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!-- Favicon -->
        <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg">
     <!-- CSS
@@ -38,7 +43,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="revolution/rs6.css">
-
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
  </head>
 
  <style>
@@ -74,8 +79,49 @@ background-color: #476BA1;
     padding: 100px 0px 100px 0px;
 }
 
+.custom-modal {
+    display: none;
+    position: fixed;
+    background: #004215;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #157a18;
+    padding: 20px;
+    /* border: 1px solid #888; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    color: #fff;
+}
+
+.custom-close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.custom-close:hover {
+  color: #f00;
+}
+
+.custom-modal-content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
  </style>
+
+ 
  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
+
+   <div id="customModal" class="custom-modal">
+      <div class="custom-modal-content">
+        <span class="custom-close">&times;</span>
+        <p>Form submitted successfully!</p>
+      </div>
+    </div>
+
     <!-- page wrapper -->
     <div class="page-wrapper">
 
@@ -101,7 +147,7 @@ background-color: #476BA1;
                               <span class="pbmit-label"> <a href="index.html">Home</a> 
                            
                                  </span>
-                               <span class="pbmit-label"><a href="inquiry.html">Inquiry</a></span>
+                               <span class="pbmit-label active"><a href="/inquiry.html">Inquiry</a></span>
                             <span class="pbmit-label"><a href="contact.html">Contact Us</a></span>
                               </div>
                               <div class="pbmit-pre-header-right">
@@ -123,16 +169,7 @@ background-color: #476BA1;
                                                <i class="fa fa-instagram"></i>
                                              </a>
                                           </li>
-                                          <!-- <li class="pbmit-social-li pbmit-social-linkedin">
-                                             <a href="#" target="_blank">
-                                                <i class="pbmit-base-icon-linkedin-squared"></i>
-                                             </a>
-                                          </li>
-                                          <li class="pbmit-social-li pbmit-social-youtube">
-                                             <a href="#" target="_blank">
-                                                <i class="pbmit-base-icon-youtube-play"></i>
-                                             </a>
-                                          </li> -->
+
                                        </ul>
                                     </li>
                                  </ul>						
@@ -160,8 +197,8 @@ background-color: #476BA1;
                                                    <a href="index.html">Home</a>
                                                </li>
 
-                                                <li class="dropdown d-xl-none">
-                                                   <a href="/inquiry.php">Inquiry</a>
+                                                <li class="dropdown d-xl-none active">
+                                                   <a href="/inquiry.html">Inquiry</a>
                                                </li>
 
                                                 <li class="dropdown d-xl-none">
@@ -184,22 +221,20 @@ background-color: #476BA1;
 
                                                </li>
                                                <li class="dropdown">
-                                                   <a href="patient.html">Treatment/Facilities</a>
-  <ul>
-                                                         <li><a href="project-style-1.html">Project Style 1</a></li>
-                                                         <li><a href="project-style-2.html">Project Style 2</a></li>
-                                                         <li><a href="project-single-details.html">Project Single Details</a></li>
+                                                   <a href="#">Treatment/Facilities  <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                      <ul>
+                                                         <li><a href="cataract-treatment.html">Cataract Treatment</a></li>
+                                                         <li><a href="lasik-treatment.html">Lasik Treatment</a></li>
                                                       </ul>
-<span class="righticon"><i class="fa fa-angle-down"></i></span>
+                                                   <span class="righticon"><i class="fa fa-angle-down"></i></span>
                                               </li>
                                               <li class="dropdown">
-                                               <a href="patient-services.html">Disease</a>
-  <ul>
-                                                         <li><a href="project-style-1.html">Project Style 1</a></li>
-                                                         <li><a href="project-style-2.html">Project Style 2</a></li>
-                                                         <li><a href="project-single-details.html">Project Single Details</a></li>
+                                               <a href="#">Disease<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                                   <ul>
+                                                         <li><a href="cataract-treatment.html">Cataract Treatment</a></li>
+                                                         <li><a href="lasik-treatment.html">Lasik Treatment</a></li>
                                                       </ul>
-<span class="righticon"><i class="fa fa-angle-down"></i></span>
+                                                   <span class="righticon"><i class="fa fa-angle-down"></i></span>
                                                </li>
                                                
                                              </ul>
@@ -212,7 +247,7 @@ background-color: #476BA1;
                                        </div> -->
                                        <div class="menu-right-box d-flex align-items-center">
                                           <div class="pbmit-header-button">
-                                             <a href="inquiry.php" class="pbmit-btn">Appointment</a>
+                                             <a href="inquiry.html" class="pbmit-btn">Appointment</a>
                                           </div>
                                        </div>
                                     </div>
@@ -231,26 +266,30 @@ background-color: #476BA1;
          </div>
       </header>
 
-       <div class="pbmit-title-bar-wrapper">
-        <div class="container">
-           <div class="pbmit-title-bar-content">
-              <div class="pbmit-title-bar-content-inner">
-                 <div class="pbmit-tbar">
-                    <div class="pbmit-tbar-inner container">
-                       <h1 class="pbmit-tbar-title"> Transforming Vision Health <br/> at Dr.Nikita's Eye Hospital                </h1>
-                    </div>
-                 </div>
-                 <!-- <div class="pbmit-breadcrumb">
-                    <div class="pbmit-breadcrumb-inner">
-                       <span><a title="" href="#" class="home"><span>Cardioly</span></a></span>
-                       <span class="sep"><i class="pbmit-base-icon-angle-double-right"></i></span>
-                       <span><span class="post-root post post-post current-item">About Us</span></span>
-                    </div>
-                 </div> -->
-              </div>
-           </div>
+
+      <!-- <div class="pbmit-title-bar-wrapper position-relative">
+         <div class="img-cover">
+         <img src="images/bg/inquiry.png" alt="" class="w-100 d-none d-sm-block" srcset="">
+            <img src="images/bg/inquiry-mob.png" alt="" class="w-100 d-block d-sm-none " srcset="">
+        
+         </div>
+         
+        <div class="container banner-container">
+         <div class="pbmit-title-bar-content">
+            <div class="pbmit-title-bar-content-inner">
+               <div class="pbmit-tbar">
+                  <div class="pbmit-tbar-inner container">
+                     <h1 class="pbmit-tbar-title"> Transforming Vision Health <br/> at Dr.Nikita's Eye Hospital                </h1>
+                  </div>
+               </div>
+
+            </div>
+         </div>
         </div>
-     </div>
+     </div> -->
+
+
+
 
 
        <!-- Header Main Area End Here -->
@@ -269,55 +308,57 @@ background-color: #476BA1;
                            <h3>
                               Online Inquiry Form</h3>
                            <p>Please fill in the below form and submit. We would get back to you very soon.</p>
-                           <form class="contact-form">
+                       <!-- <form class="contact-form" action="inquiryconnect.php" method="post">                    -->
+                       <form class="contact-form" method="post">                   
                               <div class="row">
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Name<span>*</span></label>
-                                       <input type="text" class="form-control" placeholder="Name" name="name">
+                                       <input type="text" class="form-control" placeholder="Name" name="name" required>
+                                       <span class="labelError name"></span>
                                     </div>
                                  </div>
-                                 <div class="col-md-3 col-sm-12">
+                                 <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Age<span>*</span></label>
-                                       <input type="number" class="form-control" id="age" placeholder="" name="age">
+                                       <input type="number" class="form-control" id="age" placeholder="" name="field1" required>
                                     </div>
                                  </div>
-                                 <div class="col-md-3 col-sm-12">
+                                 <!-- <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Select unit of time<span>*</span></label>
-                                       <select name="ageunit" id="ageunit" class="form-control">
+                                       <select name="ageunit" id="ageunit" class="form-control" required>
                                           <option value="" disabled selected>Select unit of time</option>
                                           <option value="months">Months</option>
                                           <option value="days">Days</option>
                                           <option value="years">Years</option>
                                         </select>
                                     </div>
-                                 </div>
+                                 </div> -->
 
-                                 <div class="col-md-12 col-sm-12">
+                                 <!-- <div class="col-md-12 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Address</label>
                                        <textarea class="form-control" id="address" name="address" rows="4" placeholder="Message" style="height: 100px;"></textarea>
                                     </div>
-                                 </div>
-                                 <div class="col-md-3 col-sm-12">
+                                 </div> -->
+                                 <!-- <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">City<span>*</span></label>
-                                       <input type="text" id="city" name="city" class="form-control" placeholder="City" name="city">
+                                       <input type="text" id="city" name="city" class="form-control" placeholder="City" required>
                                     </div>
-                                 </div>
-                                 <div class="col-md-3 col-sm-12">
+                                 </div> -->
+                                 <!-- <div class="col-md-3 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Pin Code</label>
                                        <input type="number" id="pincode" class="form-control" placeholder="" name="pincode">
                                     </div>
-                                 </div>
+                                 </div> -->
 
                                  <div class="col-md-6 col-sm-12">
                                     <div class="contact-form-section">
                                        <label for="">Contact No.</label>
-                                       <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="contactno">
+                                       <input type="number" id="contactno" class="form-control" placeholder="Contact No." name="phone">
                                     </div>
                                  </div>
 
@@ -326,27 +367,38 @@ background-color: #476BA1;
                                     <div class="contact-form-section">
                                        <label for="">Email</label>
                                        <input type="email" class="form-control" placeholder="Email" name="email">
-                                    </div>
-                                 </div>
-
-                                 <div class="col-md-6 col-sm-12">
-                                    <div class="contact-form-section">
-                                       <label for="">Type of Inquiry<span>*</span></label>
-                                       <select name="InquiryType" id="InquiryType" class="form-control">
-                                          <option value="" disabled selected>Type of Inquiry</option>
-                                          <option value="months">Request for an Appointment</option>
-                                          <option value="days">General</option>
-                                        </select>
+                                       <span class="labelError email"></span>
                                     </div>
                                  </div>
 
                                  <div class="col-md-12 col-sm-12">
                                     <div class="contact-form-section">
-                                       <label for="">Details</label>
-                                       <textarea class="form-control" name="address" rows="4" placeholder="details" style="height: 100px;"></textarea>
+                                       <label for="">Message</label>
+                                       <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" style="height: 100px;"></textarea>
                                     </div>
                                  </div>
 
+                                 <!-- <div class="col-md-6 col-sm-12">
+                                    <div class="contact-form-section">
+                                       <label for="">Type of Inquiry<span>*</span></label>
+                                       <select name="inquiry_type" id="inquiry_type" class="form-control" required>
+                                          <option value="" disabled selected>Type of Inquiry</option>
+                                          <option value="Request for an Appointment">Request for an Appointment</option>
+                                          <option value="General">General</option>
+                                        </select>
+                                    </div>
+                                 </div> -->
+
+                                 <!-- <div class="col-md-12 col-sm-12">
+                                    <div class="contact-form-section">
+                                       <label for="">Details</label>
+                                       <textarea class="form-control" name="details" rows="4" placeholder="details" style="height: 100px;"></textarea>
+                                    </div>
+                                 </div> -->
+
+                                 <!-- <div class="col-md-12">
+                                 <div class="g-recaptcha" data-sitekey="6LfFj0klAAAAAKKOOFErwQrbTyQIG1-FIpj192UR"></div>
+                                 </div> -->
                                  <div class="col-md-12 col-sm-12 pb-4">
                                     <button type="submit" class="pbmit-btn pbmit-btn-hover-secondary">Submit</button>
                                  </div>
@@ -1065,7 +1117,7 @@ background-color: #476BA1;
                                   </div>
                                </div>
                                <h3 class="pbmit-post-title">
-                                  <a href="patient-education.html">Diabetic Retinopathy is eye damage caused by diabetes-related high blood sugar levels.</a>
+                                  <a href="#">Diabetic Retinopathy is eye damage caused by diabetes-related high blood sugar levels.</a>
                                      </span>
                                   </a>
                                </h3>
@@ -1221,7 +1273,7 @@ Opp to PAL RTO<br/>
           <div class="pbmit-footer-widget-area">
              <div class="container">
                 <div class="row">
-                   <div class="col-md-6 col-lg-3">
+                   <div class="col-md-6 col-lg-4">
                       <div class="widget pbmit-float-menu">
                          <h3 class="widget-title">Information</h3>
                          <ul>
@@ -1229,7 +1281,7 @@ Opp to PAL RTO<br/>
                                <a href="index.html">Home</a>
                             </li>
                             <li class="menu-item ">
-                               <a href="/inquiry.php">Inquiry</a>
+                               <a href="/inquiry.html">Inquiry</a>
                             </li>
                             <!-- <li class="menu-item ">
                                <a href="#">Service</a>
@@ -1238,24 +1290,20 @@ Opp to PAL RTO<br/>
                                <a href="overview.html">Overview</a>
                             </li>
                             <li class="menu-item ">
-                               <a href="patient.html">Patient Information</a>
+                               <a href="contact.html">Contact Us</a>
                             </li>
                             <li class="menu-item ">
                                <a href="technology.html">Technology</a>
                             </li>
                             <li class="menu-item ">
-                               <a href="patient-services.html">Patient Services</a>
-                            </li>
-                            <li class="menu-item ">
                                <a href="infrastructure.html">Infrastructure</a>
                             </li>
-                            <li class="menu-item ">
-                               <a href="patient-education.html">Patient Education</a>
-                            </li>
+
+                            
                          </ul>
                       </div>
                    </div>
-                   <div class="col-md-6 col-lg-3">
+                   <div class="col-md-6 col-lg-4">
                       <div class="pbmit-two-widget">
                          <div class="widget">
                             <h3 class="widget-title">Patient Education</h3>
@@ -1267,14 +1315,14 @@ Opp to PAL RTO<br/>
                                      </span>
                                   </a>
                                   <span class="pbmit-rpw-content">
-                                     <span class="pbmit-rpw-title"><a href="patient-education.html">Diabetic Retinopathy is eye damage caused by diabetes-related high blood sugar levels.</a>
+                                     <span class="pbmit-rpw-title"><a href="#">Diabetic Retinopathy is eye damage caused by diabetes-related high blood sugar levels.</a>
                                      </span>
                                   </a></span>
                                      
                                   </span>
                                </li>
                                <li>
-                                  <a href="patient-education.html">
+                                  <a href="#">
                                      <span class="pbmit-rpw-img">
                                         <img src="images/retinal_detachment_clip_image004.jpg" class="img-fluid" alt="">
                                      </span>
@@ -1290,20 +1338,8 @@ Opp to PAL RTO<br/>
                          </div>
                       </div>
                    </div>
-                   <div class="col-md-6 col-lg-3">
-                      <div class="widget">
-                         <h3 class="widget-title">Newsletter</h3>
-                         <div>Sign up today for hints, tips and the latest product news
-                            <div class="pbmit-footer-newsletter">
-               <form action="submit_email.php" method="post">
-    <input type="email" name="email" placeholder="Your email address" required>	
-    <button type="submit" name="submit">Submit <i class="fa fa-paper-plane"></i></button>
-</form>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="col-md-6 col-lg-3">
+
+                   <div class="col-md-6 col-lg-4">
                       <div class="widget">
                          <h3 class="widget-title">Opening Hours</h3>
                          <ul class="pbmit-timelist-list">
@@ -1341,7 +1377,7 @@ Opp to PAL RTO<br/>
                    <div class="pbmit-footer-copyright-box mt-sm-3">
                       <ul>
                          <li class="pbmit-footer-menu li">
-                            <a href="faq.html">Privacy Policy</a>
+                            <a href="faq.html">Faq</a>
                          </li>         
                          <li class="pbmit-footer-menu li">
                             <a href="overview.html">Overview</a>
@@ -1374,6 +1410,8 @@ Opp to PAL RTO<br/>
        </div>
     </div> -->
  <!-- Search Box End Here -->
+
+
 
     <!-- JS
        ============================================ -->
@@ -1409,6 +1447,22 @@ Opp to PAL RTO<br/>
     <script src="revolution/rslider.js"></script>
     <script src="revolution/rbtools.min.js"></script>
     <script src="revolution/rs6.min.js"></script>
-
- 
+    <script src="js/contact.js"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var righticons = document.querySelectorAll('.righticon');
+      righticons.forEach(function(righticon) {
+        righticon.addEventListener('click', function() {
+          var dropdown = righticon.parentNode;
+          var submenu = dropdown.querySelector('ul');
+          var icon = righticon.querySelector('i');
+          
+          dropdown.classList.toggle('open');
+          submenu.classList.toggle('open');
+          icon.classList.toggle('fa-angle-up');
+          icon.classList.toggle('fa-angle-down');
+        });
+      });
+    });
+  </script>
 </body></html>
